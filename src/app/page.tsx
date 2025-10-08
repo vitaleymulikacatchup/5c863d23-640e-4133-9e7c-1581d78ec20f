@@ -6,6 +6,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import RevealFooter from '@/components/sections/layouts/footer/RevealFooter';
+import { Globe } from '@/components/bento/contents/Globe';
 
 const theme: SiteTheme = {
   styleVariant: "funAndTrendy",
