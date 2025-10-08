@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteTheme, SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarBase from '@/components/navigation/NavbarBase';
 import SimpleHero from '@/components/sections/layouts/hero/FrameHero';
@@ -47,8 +47,7 @@ export default function Home() {
       </div>
       <div id="about" data-section="about" className="scroll-mt-24">
         <SplitAbout
-          description="MemeCoinX is a playful memecoin built by the community for the community. It embraces humor, creativity, and open dialogue around crypto.
-          The project focuses on accessibility and transparency, with clear buy steps, simple tokenomics, and a friendly, inclusive vibe."
+          description="MemeCoinX is a playful memecoin built by the community for the community. It embraces humor, creativity, and open dialogue around crypto. The project focuses on accessibility and transparency, with clear buy steps, simple tokenomics, and a friendly, inclusive vibe."
         />
       </div>
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
@@ -64,10 +63,10 @@ export default function Home() {
           title="Tokenomics"
           description="MemeCoinX aims for fun with real-world use, balanced incentives, and community-driven governance."
           kpiItems={[
-            { value: "1,000,000,000 MCX", description: "Total supply", longDescription: "Long description example", icon: "YourIcon" },
-            { value: "2% per transaction", description: "Redistribution", longDescription: "Long description example", icon: "YourIcon" },
-            { value: "3% to LP", description: "Liquidity", longDescription: "Long description example", icon: "YourIcon" },
-            { value: "Q3 2025", description: "Launch date", longDescription: "Long description example", icon: "YourIcon" }
+            { value: "1,000,000,000 MCX", description: "Total supply", longDescription: "Long description example", icon: Globe },
+            { value: "2% per transaction", description: "Redistribution", longDescription: "Long description example", icon: Globe },
+            { value: "3% to LP", description: "Liquidity", longDescription: "Long description example", icon: Globe },
+            { value: "Q3 2025", description: "Launch date", longDescription: "Long description example", icon: Globe }
           ]}
         />
       </div>
