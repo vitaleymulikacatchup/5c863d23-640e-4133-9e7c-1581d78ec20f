@@ -25,15 +25,6 @@ export default function Home() {
           rightButtonText="Buy MemeCoinX"
           onLeftButtonClick={() => {}}
           onRightButtonClick={() => {}}
-          className=""
-          containerClassName=""
-          logoClassName=""
-          buttonClassName=""
-          buttonContentClassName=""
-          buttonBgColor=""
-          buttonHoverBgColor=""
-          buttonTextColor=""
-          buttonHoverTextColor=""
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
